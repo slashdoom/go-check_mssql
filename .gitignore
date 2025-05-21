@@ -8,6 +8,10 @@
 *.so
 *.dylib
 
+# Build files
+check_mssql
+build/
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -25,4 +29,4 @@ go.work.sum
 .env
 
 # IDE
-.vscode
+.vscode/

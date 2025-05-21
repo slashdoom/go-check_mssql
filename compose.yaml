@@ -1,0 +1,7 @@
+services:
+  check_mssql:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/go/export
